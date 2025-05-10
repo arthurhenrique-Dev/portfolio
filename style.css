@@ -1,57 +1,99 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+    font-family: "Montserrat", sans-serif;
 }
 body{
     height: 100vh;
-    background: url(imgs/code-1076536_1920.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(imgs/code-1076536_1920.jpg) ;
+    width: 100vw;
+    display: flex;
+    background-color: rgb(16, 24, 31);;
     background-repeat: no-repeat;
-    background-size: cover;
-    color: aliceblue;
-    box-sizing: border-box;
 }
-.titulo-destaque{
-    color: black;
+main{
+    display: flex;  
+    width: 100vw;
+    height: 100vh;
 }
-.apresentacao{
-    margin: 10% 15%;
+.info{
+    height: 100vh;
+    width: 80vw;
+    background-color: rgb(36, 138, 158);
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.apresentacao__conteudo{
-    width: 615px;
-    background-color: #BF4F51;
-    border-radius: 40px;
-    padding: 40px;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-}
-.titulo{
-    font-size: 56px;
-    font-family: "Krona One", sans-serif;
-    
-}
-.paragrafo{
-    font-size: 36px;
-    font-family: "Montserrat", sans-serif;
-}
-.show__buttons{
-    display: flex;
-    justify-content: space-between;
-}
-.buttons{
-    width: 240px;
-    color: aliceblue;
-    background-color: #FFBF00;
     text-align: center;
-    font-size: 34px;
-    font-family: "Montserrat", sans-serif;
-    padding: 21px;
-    border-radius: 230px;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    padding: 1em;
+    width: 60%;
+    background-color: aliceblue;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border-radius: 1em;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+#name{
+    font-family: "Krona One", sans-serif;
+    font-size:  4em;
+}
+#title{
+    margin-bottom: 5%;
+}
+.formacoes{
+    background-color: rgb(23, 54, 63);
+    font-size: 1.5em;
+    margin: 1em;
+    border-radius: 1em;
+}
+#box_description{
+    border-radius: 1em;
+    background-color: rgb(16, 24, 31);
+    padding: 0.2em;
+}
+#box-about-me{
+    margin: 1em;
+}
+.container-socialmedia{
+    padding: 1em;
+    width: 30%;
+    background-color: rgb(16, 24, 31);
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+#socialTitle{
+    font-size: 3em;
+}
+#github{
+    height: 5vh;
+    width: 10vw;
+    text-align: center;
+    align-content: center;
+    color: rgb(255, 255, 255);
+    background-color: brown;
+    margin: 4%;
+    font-size: 1em;
     text-decoration: none;
+    border-radius: 2em;
+}
+#linkedin{
+    height: 5vh;
+    width: 10vw;
+    text-align: center;
+    align-content: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(42, 99, 165);
+    margin: 4%;
+    font-size: 1em;
+    text-decoration: none;
+    border-radius: 2em;
 }
