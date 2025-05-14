@@ -12,11 +12,16 @@ body{
     display: flex;
     background-color: rgb(16, 24, 31);;
     background-repeat: no-repeat;
+    flex-flow: row wrap;
+}
+ul{
+    list-style-type: none;
 }
 main{
     display: flex;  
     width: 100vw;
     height: 100vh;
+    z-index: 1;
 }
 .info{
     height: 100vh;
